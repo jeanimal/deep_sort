@@ -1,5 +1,19 @@
 # Deep SORT
 
+## This fork / branch
+
+I made it easier to set everything up rather than following the manual instructions below.
+This includes using scikit-learn version 0.20 because the code does not work with newer versions.
+
+```
+# Installs all needed libraries at compatible versions.
+conda env create --file environment.yml
+conda activate deep_sort
+
+# Download and unzip external data (not in github).
+./setup_external.sh
+```
+
 ## Introduction
 
 This repository contains code for *Simple Online and Realtime Tracking with a Deep Association Metric* (Deep SORT).
