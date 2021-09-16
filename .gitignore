@@ -87,3 +87,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Where external files are stored after set-up.
+MOT16
+MOT16.zip
+resources
+resources-20210916T171747Z-001.zip
